@@ -1,0 +1,12 @@
+create database bdclientes;
+use bdclientes;
+create table tblclientes(
+cliid int primary key not null,
+clinome varchar (50),
+clisobrenome varchar (50),
+clidata varchar (15),
+clisexo varchar (15),
+clicpf varchar (20),
+clirg varchar (20)
+);
+
